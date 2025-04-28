@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <title>Liora</title>
+  </head>
+  <body>
+    <section class="cart-container-transparent">
+      <section id="cart-container">
+        <section class="cart-header" id="cart-header">
+          <span id="shopping-bag-count"></span>
+          <i id="cart-close-icon" class="fa-solid fa-xmark"></i>
+        </section>
+        <section class="cart-products" id="cart-products">
+        </section>
+        <section class="cart-footer" id="cart-footer">
+          <span class="cart-subtotal" id="cart-subtotal"></span>
+          <span class="cart-totalprice" id="cart-totalprice"></span>
+        </section>
+        <section class="cart-checkout-container">
+                <a class="cart-checkout-button" id="cart-checkout"></a>
+              </section>
+      </section>
+    </section>
+    <header>
+      <nav>
+        <input type="checkbox" id="menu-toggle" style="display: none;" />
+        <label id="menu-button" for="menu-toggle">
+          <div class="bars">
+            <div class="b1"></div>
+            <div class="b1"></div>
+            <div class="b1"></div>
+          </div>
+        </label>
+ 
+        <ul class="nav-menu">
+          <li><a href="#">News</a></li>
+          <li><a href="/pages/productPage.html">Posters</a></li>
+          <li><a href="#">Bestsellers</a></li>
+        </ul>
+ 
+        <h1 class="logo">
+          <a href="/index.html">LIORA</a>
+        </h1>
+        <section class="cart-icon" id="cart-icon">
+          <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+          <span class="nav-shopping-bag-count" id="nav-shopping-bag-count"></span>
+        </section>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="product-page"><h2 class="page-heading">Posters</h2>
+      </section>
+      <section id="productpage-list"></section>
+      <section id="product-detail-page">
+        <section id="product-status"></section>
+      </section>
+
+      <section id="notify-me-modal"></section>
+    </main>
+
+    <footer>
+      <section class="info-container">
+        <section class="info-column-boxes">
+          <section class="info-column">
+            <h3>About</h3>
+            <li><a>Liora</a></li>
+          </section>
+            <section class="footer-divider"></section>
+          <section class="info-column">
+            <h3>Customer Care</h3>
+            <li><a>Contact us</a></li>
+            <li><a>FAQ</a></li>
+            <li><a>Shipping & returns</a></li>
+          </section>
+          <section class="footer-divider"></section>
+          <section class="info-column">
+            <h3>Social</h3>
+            <li><a>Instagram</a></li>
+            <li><a>Pinterest</a></li>
+            <li><a>Facebook</a></li>
+          </section>
+            <section class="footer-divider"></section>
+          <section class="info-column">
+            <h3>Legal</h3>
+            <li><a>Terms & conditions</a></li>
+            <li><a>Privacy policy</a></li>
+            <li><a>Cookies</a></li>
+          </section>
+      </section>
+        <section class="copyright-container">
+          <section class="copyright">
+            <p>Copyright &copy; 2025, Liora</p>
+          </section>
+        </section>
+      </footer>
+    <script type="module" src="/src/ts/main.ts"></script>
+  </body>
+</html>
